@@ -1,0 +1,7 @@
+#!name= Doka
+#!desc= Unlock Pro
+
+[MITM]
+hostname= %APPEND% *.yindoka.com
+[Script]
+Doka=type=http-response,pattern=^https:\/\/[^\/]+\.yindoka\.com\/apple\/(check-subscription-status|vip-detail)\/?(\?.*)?$,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/doka.js

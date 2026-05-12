@@ -1,0 +1,8 @@
+#!name= Internet Information
+#!desc= InternetInfor
+
+[Panel]
+InternetInfor = script-name=InternetInfor,title=InternetInfor,content=Please refresh,style=info,update-interval=60
+
+[Script]
+InternetInfor = type=generic,timeout=10,script-path=https://ifade.vercel.app/scripts/InternetInfor.js

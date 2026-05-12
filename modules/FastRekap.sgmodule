@@ -1,0 +1,7 @@
+#!name= Fast Rekap
+#!desc= Unlock Pro
+
+[MITM]
+hostname= api.revenuecat.com
+[Script]
+FastRekap = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/fastrekap.js

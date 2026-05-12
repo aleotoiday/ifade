@@ -1,0 +1,7 @@
+#!name= AppRaven
+#!desc= Unlock AppRaven
+
+[MITM]
+hostname = %APPEND% appraven.net
+[Script]
+AppRaven = type=http-response,pattern=https://appraven.net/appraven/graphql,requires-body=true, max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/appraven.js

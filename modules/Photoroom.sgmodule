@@ -1,0 +1,16 @@
+#!name= Photoroom
+#!desc= Unlock Ultra
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com, *.photoroom.com, *.mobile-messenger.intercom.com, api.purchasely.io
+
+[Script]
+Photoroom=type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/photoroom.js
+
+Sub=type=http-response,pattern=^https:\/\/api\.photoroom\.com\/v1\/user\/details\/$,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/photoroom-api.js
+
+Storage=type=http-response,pattern=^https:\/\/serverless-api\.photoroom\.com\/v1\/ai-usage-limits\/$,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/photoroom-usage.js
+
+Pur=type=http-response,pattern=^https:\/\/api\.purchasely\.io\/(receipts\/[^\/]+|app\/[^\/]+\/paab\/user_purchases)\/?(\?.*)?$,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/photoroom-pur.js
+
+Tus=type=http-request,pattern=^https:\/\/[^\/]+\.mobile-messenger\.intercom\.com\/messenger\/mobile\/users\/$,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/photoroom-in.js

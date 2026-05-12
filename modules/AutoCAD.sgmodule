@@ -1,0 +1,7 @@
+#!name= AutoCad
+#!desc= Unlock Pro
+
+[MITM]
+hostname = %APPEND% app.autocad360.com
+[Script]
+AutoCAD=type=http-response, pattern=^https:\/\/app\.autocad360\.com\/entitlements\/v2\/me\/status, requires-body=true, max-size=-1, timeout=60, script-path=https://ifade.vercel.app/scripts/autocad.js

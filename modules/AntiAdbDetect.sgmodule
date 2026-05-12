@@ -1,0 +1,9 @@
+#!name= Anti Adblock Detect
+#!desc= Gift for Hacker LT
+
+[Script]
+AntiAdbDetect = type=http-response,pattern=^https?:\/\/(ipacrack\.com|ios\.codevn\.net),requires-body=1,max-size=-1,time-out=10,script-path=https://ifade.vercel.app/scripts/AntiAdbDetect.js
+
+
+[MITM]
+hostname = %APPEND% ipacrack.com, ios.codevn.net

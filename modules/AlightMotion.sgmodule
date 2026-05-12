@@ -1,0 +1,8 @@
+#!name= Alight Motion
+#!desc= Unlock Cloud
+
+[MITM]
+hostname = us-central1-alight-creative.cloudfunctions.net
+
+[Script]
+AlightMotion=type=http-response,pattern=^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses$,requires-body=true,timeout=5,script-path=https://ifade.vercel.app/scripts/alightmotion.js

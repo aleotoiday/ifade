@@ -1,0 +1,7 @@
+#!name= AdGuard
+#!desc= Unlock Lifetime
+
+[MITM]
+hostname= mobile-api.adguard.org
+[Script]
+AdGuard=type=http-response,pattern=^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt,requires-body=1,script-path=https://ifade.vercel.app/scripts/adguard.js

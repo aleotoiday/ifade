@@ -1,0 +1,7 @@
+#!name= FotMob
+#!desc= Unlock FotMob+
+
+[MITM]
+hostname= %APPEND% api.revenuecat.com
+[Script]
+FotMob=type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),requires-body=1,script-path=https://ifade.vercel.app/scripts/fotmob.js

@@ -1,0 +1,7 @@
+#!name= Unlock Camscanner 
+#!desc= Camscanner
+
+[MITM]
+hostname = %APPEND% ap*.intsig.net
+[Script]
+Camscanner = requires-body=1,script-path=https://ifade.vercel.app/scripts/camscanner.js,type=http-response,pattern= https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_property\?

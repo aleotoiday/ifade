@@ -1,0 +1,8 @@
+#!name= Forest
+#!desc= Unlock Plus
+
+[MITM]
+hostname = %APPEND% forest-api.upwardsware.com
+
+[Script]
+Forest = type=http-response,pattern=^https:\/\/forest-api\.upwardsware\.com\/user\/users\/\d+\/service-levels\/status\?.*$,requires-body=true, max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/forest.js

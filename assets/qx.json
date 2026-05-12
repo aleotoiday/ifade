@@ -1,0 +1,196 @@
+[
+  {
+    "category": "Cấu hình từ xa",
+    "items": [
+      {
+        "name": "Mực Nhỏ 2.0",
+        "url": "javascript:copyLinkAndNotify('https://ddgksf2013.top/Profile/QuantumultX.conf')",
+        "author": "ddgksf2013",
+        "desc": "VIP cao cấp | Phân tích thông minh",
+        "icon": "/Assets/Icon/Quantumult-X.JPG",
+        "views": 0
+      }
+    ]
+  },
+  {
+    "category": "Mở khóa thành viên",
+    "items": [
+      {
+        "name": "Spotify",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fapp2smile%2Frules%2Fmaster%2Fmodule%2Fspotify.conf%2C%20tag%3DSpotify%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40app2smile%2C%20update-interval%3D86400%2C%20opt-parser%3Dfalse%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "app2smile",
+        "desc": "Mở khóa Premium",
+        "icon": "/Assets/Icon/Spotify.JPG",
+        "views": 0
+      },
+      {
+        "name": "BuyiTunes",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fbuyitunes.vip.js%2C%20tag%3DBuyiTunes%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "ddgksf2013",
+        "desc": "Bộ sưu tập mở khóa iTunes",
+        "icon": "/Assets/Icon/BuyiTunes.JPG",
+        "views": 0
+      },
+      {
+        "name": "RevenueCat",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Frevenuecat.vip.js%2C%20tag%3DRevenueCat%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "PxJonsea",
+        "desc": "Bộ sưu tập mở khóa RevenueCat",
+        "icon": "/Assets/Icon/RevenueCat.JPG",
+        "views": 0
+      },
+      {
+        "name": "Drafts",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Frevenuecat.vip.js%2C%20tag%3DRevenueCat%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "ddgksf2013",
+        "desc": "Mở khóa Drafts",
+        "icon": "/Assets/Icon/Drafts.JPG",
+        "views": 0
+      },
+      {
+        "name": "极简汇率",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fjijianhuilv.vip.js%2C%20tag%3D%E6%9E%81%E7%AE%80%E6%B1%87%E7%8E%87%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "ddgksf2013",
+        "desc": "Mở khóa Exchange Rate",
+        "icon": "/Assets/Icon/ChuyenDoiTienTe.JPG",
+        "views": 0
+      },
+      {
+        "name": "搜图神器",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fsoutushenqi.vip.js%2C%20tag%3D%E6%90%9C%E5%9B%BE%E7%A5%9E%E5%99%A8%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "ddgksf2013",
+        "desc": "Mở khóa Sotu Shenqi",
+        "icon": "/Assets/Icon/Soutushenqi.JPG",
+        "views": 0
+      },
+      {
+        "name": "万年历",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fwannianli.vip.js%2C%20tag%3D%E4%B8%87%E5%B9%B4%E5%8E%86%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "ddgksf2013",
+        "desc": "Mở khóa tư cách thành viên Lịch vĩnh viễn",
+        "icon": "/Assets/Icon/Wannianli.JPG",
+        "views": 0
+      },
+      {
+        "name": "Nicegram",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fnicegram.vip.js%2C%20tag%3DNicegram%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "ddgksf2013",
+        "desc": "Mở khóa Premium",
+        "icon": "/Assets/Icon/Nicegram.JPG",
+        "views": 0
+      },
+      {
+        "name": "Emby",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2Fddgksf2013%2FRewrite%2Fmaster%2FFunction%2FEmbyPlugin.conf%2C%20tag%3DEmby%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40renzhipeng%2C%20update-interval%3D86400%2C%20opt-parser%3Dfalse%2C%20enabled%3Dtrue%22%5D%7D",
+        "author": "ddgksf2013",
+        "desc": "Mở khóa thành viên Emby",
+        "icon": "/Assets/Icon/Emby.JPG",
+        "views": 0
+      },
+      {
+        "name": "KkMusic",
+ 	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fkkmusic.vip.js%2C%20tag%3D%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Thay thế nguồn âm thanh, loại bỏ quảng cáo",
+	"icon": "/Assets/Icon/Kkmusic.JPG",
+	"views": 0
+      },
+      {
+	"name": "Appraven",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fappraven.vip.js%2C%20tag%3DAppraven%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Mở khóa thành viên, dọn dẹp trang chủ",
+	"icon": "/Assets/Icon/Appraven.JPG",
+	"views": 0
+     },
+     {
+	"name": "三联中读",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fsanlianzhongdu.vip.js%2C%20tag%3D%E4%B8%89%E8%81%94%E4%B8%AD%E8%AF%BB%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Đăng nhập ẩn danh, mở khóa vip",
+        "icon": "/Assets/Icon/Sanlianzhongdu.JPG",
+        "views": 0
+     },
+     {
+        "name": "Fimo",
+        "url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Ffimo.vip.js%2C%20tag%3DFimo%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+       "author": "ddgksf2013",
+       "desc": "Thưởng thức phim độc quyền dành riêng cho thành viên",
+       "icon": "/Assets/Icon/Fimo.JPG",
+       "views": 0
+     },
+     {
+	"name": "Goodbility",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fgoodbility.vip.js%2C%20tag%3DGoodbility%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Mở khóa tư cách thành viên G và N Notes",
+	"icon": "/Assets/Icon/Goodbility.JPG",
+	"views": 0
+     },
+     {
+	"name": "句读",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fjudou.vip.js%2C%20tag%3D%E5%8F%A5%E8%AF%BB%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Xóa hình mờ, đăng nhập để sử dụng",
+	"icon": "/Assets/Icon/Judou.JPG",
+	"views": 0
+     },
+     {
+	"name": "Endel",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fendel.vip.js%2C%20tag%3DEndel%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40langkhach%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "langkhach270389",
+	"desc": "Đăng nhập để sử dụng chế độ tiếng ồn trắng nhẹ nhàng.",
+	"icon": "/Assets/Icon/Endel.JPG",
+	"views": 0
+     },
+     {
+	"name": "Flightrada24",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fflightradar24.vip.js%2C%20tag%3DFlightradar24%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Đăng nhập và sử dụng trợ lý du lịch.",
+	"icon": "/Assets/Icon/Flightrada24.JPG",
+	"views": 0
+     },
+     {
+	"name": "一言",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fyiyan.vip.js%2C%20tag%3D%E4%B8%80%E8%A8%80%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Đăng nhập để sử dụng, trích dẫn nổi tiếng",
+	"icon": "/Assets/Icon/YiYan.JPG",
+	"views": 0
+     },
+     {
+	"name": "Session",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fsession.vip.js%2C%20tag%3DSession%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40Caster%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "đồng hồ pomodoro",
+	"icon": "/Assets/Icon/Session.JPG",
+	"views": 0
+     },
+     {
+	"name": "傲软抠图",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fapowersoft.vip.js%2C%20tag%3D%E5%82%B2%E8%BD%AF%E6%8A%A0%E5%9B%BE%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Đăng nhập để sử dụng, loại bỏ ma thuật",
+	"icon": "/Assets/Icon/Apowersoft.JPG",
+	"views": 0
+     },
+     {
+	"name": "Vis",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fddgksf2013.top%2Fscripts%2Fvis.vip.js%2C%20tag%3DVis%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40ddgksf2013%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "ddgksf2013",
+	"desc": "Kiểm tra tiến độ công việc, thói quen tự kỷ luật",
+	"icon": "/Assets/Icon/Vis.JPG",
+	"views": 0
+     },
+     {
+	"name": "看理想",
+	"url": "https://quantumult.app/x/open-app/add-resource?remote-resource=%7B%22rewrite_remote%22%3A%5B%22https%3A%2F%2Fraw.githubusercontent.com%2FYu9191%2FRewrite%2Frefs%2Fheads%2Fmain%2Fklx.sgmodule%2C%20tag%3D%E7%9C%8B%E7%90%86%E6%83%B3%E4%BC%9A%E5%91%98%E8%A7%A3%E9%94%81%40Yu9191%2C%20update-interval%3D86400%2C%20opt-parser%3Dtrue%2C%20enabled%3Dtrue%22%5D%7D",
+	"author": "Yu9191",
+	"desc": "Mở khóa âm thanh thuộc sở hữu của thành viên",
+	"icon": "/Assets/Icon/Klx.JPG",
+	"views": 0
+     }
+   ]
+   }
+]

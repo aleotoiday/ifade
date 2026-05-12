@@ -1,0 +1,260 @@
+[
+  {
+    "category": "Cấu hình từ xa",
+    "items": [
+      {
+        "name": "Shadowrocket",
+        "url": "javascript:copyLinkAndNotify('https://ddgksf2013.top/Profile/Shadowrocket.conf')",
+        "author": "ddgksf2013",
+        "desc": "Chuyển đổi tập lệnh | chuyển hướng",
+        "icon": "/Assets/Icon/Shadowrocket.JPG",
+        "views": 0
+      }
+    ]
+  },
+  {
+    "category": "Mở khóa thành viên",
+    "items": [
+      {
+        "name": "Spotify",
+        "url": "shadowrocket://install?module=https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/module/spotify.module",
+        "author": "app2smile",
+        "desc": "Mở khóa Premium",
+        "icon": "/Assets/Icon/Spotify.JPG",
+        "views": 0
+      },
+      {
+        "name": "BuyiTunes",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/iTunes.sgmodule",
+        "author": "chxm1023",
+        "desc": "Bộ sưu tập mở khóa iTunes",
+        "icon": "/Assets/Icon/BuyiTunes.JPG",
+        "views": 0
+      },
+      {
+        "name": "RevenueCat",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Revenuecat.sgmodule",
+        "author": "chxm1023",
+        "desc": "Bộ sưu tập mở khóa RevenueCat",
+        "icon": "/Assets/Icon/RevenueCat.JPG",
+        "views": 0
+      },
+      {
+        "name": "AdGuard",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Adguard.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Premium",
+        "icon": "/Assets/Icon/AdGuard.JPG",
+        "views": 0
+      },
+      {
+        "name": "YouTube",
+        "url": "shadowrocket://install?module=https://raw.githubusercontent.com/Maasea/sgmodule/refs/heads/master/YouTube.Enhance.sgmodule",
+        "author": "Maasea",
+        "desc": "Chặn quảng cáo, pip, nghe nền",
+        "icon": "/Assets/Icon/YouTube.JPG",
+        "views": 0
+      },
+      {
+        "name": "AutoCAD",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/AutoCAD.sgmodule",
+        "author": "Mike-offers",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/AutoCAD.JPG",
+        "views": 0
+      },
+      {
+        "name": "CamScanner",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Camscanner.sgmodule",
+        "author": "",
+        "desc": "Mở khóa Gold",
+        "icon": "/Assets/Icon/CamScanner.JPG",
+        "views": 0
+      },
+      {
+        "name": "Nicegram",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Nicegram.sgmodule",
+        "author": "chxm1023",
+        "desc": "Mở khóa Premium",
+        "icon": "/Assets/Icon/Nicegram.JPG",
+        "views": 0
+      },
+      {
+        "name": "FaceSwapper",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/FaceSwapper.sgmodule",
+        "author": "chxm1023",
+        "desc": "Mở khóa Vip",
+        "icon": "/Assets/Icon/FaceSwapper.JPG",
+        "views": 0
+      },
+      {
+        "name": "Endel",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Endel.sgmodule",
+        "author": "langkhach270389",
+        "desc": "Đăng nhập để sử dụng chế độ tiếng ồn trắng nhẹ nhàng.",
+        "icon": "/Assets/Icon/Endel.JPG",
+        "views": 0
+      },
+      {
+        "name": "Appraven",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/AppRaven.sgmodule",
+        "author": "ddgksf2013",
+        "desc": "Mở khóa thành viên",
+        "icon": "/Assets/Icon/Appraven.JPG",
+        "views": 0
+      },
+      {
+        "name": "Github",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Github.sgmodule",
+        "author": "Yu9191",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/Github.JPG",
+        "views": 0
+      },
+      {
+        "name": "Lightroom",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Lightroom.sgmodule",
+        "author": "I-am-R-E",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/Lightroom.JPG",
+        "views": 0
+      },
+      {
+        "name": "Locket",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Locket.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Gold",
+        "icon": "/Assets/Icon/Locket.JPG",
+        "views": 0
+      },
+      {
+        "name": "Picsart",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Picsart.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/Picsart.JPG",
+        "views": 0
+      },
+      {
+        "name": "ReLens",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/ReLens.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/ReLens.JPG",
+        "views": 0
+      },
+      {
+        "name": "Reddit",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Reddit.sgmodule",
+        "author": "ddgksf2013",
+        "desc": "Chặn quảng cáo",
+        "icon": "/Assets/Icon/Reddit.JPG",
+        "views": 0
+      },
+      {
+        "name": "Snow",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Snow.sgmodule",
+        "author": "",
+        "desc": "Mở khóa Vip",
+        "icon": "/Assets/Icon/Snow.JPG",
+        "views": 0
+      },
+      {
+        "name": "SoundCloud",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/SoundCloud.sgmodule",
+        "author": "I-am-R-E",
+        "desc": "Mở khóa GO+",
+        "icon": "/Assets/Icon/SoundCloud.JPG",
+        "views": 0
+      },
+      {
+        "name": "TrueCaller",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/TrueCaller.sgmodule",
+        "author": "",
+        "desc": "Mở khóa Gold",
+        "icon": "/Assets/Icon/Truecaller.JPG",
+        "views": 0
+      },
+      {
+        "name": "HTTPBot",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/HTTPBot.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/HTTPBot.JPG",
+        "views": 0
+      },
+      {
+        "name": "Scanner Pro",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/ScannerPro.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/ScannerPro.JPG",
+        "views": 0
+      },
+      {
+        "name": "Prism",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Prism.sgmodule",
+        "author": "Little_340306",
+        "desc": "Mở khóa Plus",
+        "icon": "/Assets/Icon/Prism.JPG",
+        "views": 0
+      },
+      {
+        "name": "Color Widgets",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/ColorWidgets.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/ColorWidgets.JPG",
+        "views": 0
+      },
+      {
+        "name": "Aloha",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Alohavpn.sgmodule",
+        "author": "Maro162926",
+        "desc": "Mở khóa Premium",
+        "icon": "/Assets/Icon/Aloha.JPG",
+        "views": 0
+      },
+      {
+        "name": "B612",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/B612.sgmodule",
+        "author": "",
+        "desc": "Mở khóa Vip",
+        "icon": "/Assets/Icon/B612.JPG",
+        "views": 0
+      },
+      {
+        "name": "Documents",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Documents.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/Documents.JPG",
+        "views": 0
+      },
+      {
+        "name": "PolyGit",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/PolyGit.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Pro",
+        "icon": "/Assets/Icon/PolyGit.JPG",
+        "views": 0
+      },
+      {
+        "name": "Alight Motion",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/AlightMotion.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Cloud",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/f4/fc/d2f4fcb8-d490-dc66-2ee9-4c7fa693f379/AppIcon-0-0-1x_U007emarketing-0-5-0-0-0-0-85-220.png/512x512bb.jpg",
+        "views": 0
+      },
+      {
+        "name": "VSCO",
+        "url": "shadowrocket://install?module=https://ifade.vercel.app/Modules/Vsco.sgmodule",
+        "author": "ifade",
+        "desc": "Mở khóa Pro",
+        "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/33/8f/c5/338fc5cd-1b08-9622-b55c-e50051e9fb86/app-icon-production-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+        "views": 0
+      }
+    ]
+  }
+]

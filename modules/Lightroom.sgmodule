@@ -1,0 +1,7 @@
+#!name= Unlock Lightroom
+#!desc= Lightroom
+
+[MITM]
+hostname=%APPEND% photos.adobe.io
+[Script]
+Lightroom = type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v\d\/accounts,requires-body=1,max-size=0,script-update-interval=-1,script-path=https://ifade.vercel.app/scripts/lightroom.js

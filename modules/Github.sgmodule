@@ -1,0 +1,8 @@
+#!name= Github
+#!desc= Unlock Pro
+
+[MITM]
+hostname = %APPEND% api.github.com
+
+[Script]
+Github = type=http-response,pattern=https://api.github.com/graphql,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/Github.js

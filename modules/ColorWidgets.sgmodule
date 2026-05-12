@@ -1,0 +1,7 @@
+#!name= Color Widgets
+#!desc= Unlock Pro
+
+[MITM]
+hostname= %APPEND% api.revenuecat.com
+[Script]
+ColorWidgets=type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$),requires-body=1,script-path=https://ifade.vercel.app/scripts/colorwidgets.js

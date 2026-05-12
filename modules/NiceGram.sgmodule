@@ -1,0 +1,8 @@
+#!name= NiceGram
+#!desc= Unlock Premium
+
+[MITM]
+hostname = %APPEND% nicegram.cloud, restore-access.indream.app
+
+[Script]
+Nicegram = type=http-response,pattern=^https?:\/\/(nicegram\.cloud\/api\/v\d\/user\/info|restore-access\.indream\.app\/restoreAccess),requires-body=1,max-size=0,script-update-interval=0,script-path=https://ifade.vercel.app/scripts/Nicegram.js

@@ -1,0 +1,8 @@
+#!name= Unlock ElsaSpeak
+#!desc= ElsaSpeak
+
+[MITM]
+hostname = %APPEND% pool.elsanow.io
+[Script]
+ElsaSpeak = type=http-response,pattern=^https:\/\/pool\.elsanow\.io\/user\/api\/.+\/purchase$,requires-body=1,max-size=0,script-update-interval=-1,script-path=https://ifade.vercel.app/scripts/elsa-response.js
+Elsa-header = type=http-request,pattern=^https:\/\/pool\.elsanow\.io\/content\/api\/.+\/modules\/download$,script-update-interval=-1,script-path=https://ifade.vercel.app/scripts/elsa-header.js

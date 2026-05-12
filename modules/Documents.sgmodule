@@ -1,0 +1,7 @@
+#!name= Documents
+#!desc= Unlock Pro
+
+[MITM]
+hostname= api.rc-backup.com
+[Script]
+Documents = type=http-response, pattern=^https:\/\/api\.rc-backup\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/documents.js

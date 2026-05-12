@@ -1,0 +1,11 @@
+#!name= Picsart
+#!desc= Unlock Pro
+
+[Header Rewrite]
+^https:\/\/api\.(picsart|meiease)\.c(n|om)\/users\/show\/me\.json header-del if-none-match
+
+[MITM]
+hostname = %APPEND% api.picsart.com
+
+[Script]
+http-request https://api.picsart.com/gw-v2/shop/subscription/apple/purchases, requires-body=true, timeout=5, script-path=https://ifade.vercel.app/scripts/picsart.js

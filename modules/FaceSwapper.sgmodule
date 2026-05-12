@@ -1,0 +1,7 @@
+#!name= FaceSwapper
+#!desc= Unlock FaceSwapper
+
+[MITM]
+hostname = %APPEND% api-*.facereplacerext.com
+[Script]
+FaceSwapper=type=http-response,pattern=^https?:\/\/api-.*\.facereplacerext\.com\/api\/rest\/commerce\/integrate\/vip\/perform,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/faceswapper.js

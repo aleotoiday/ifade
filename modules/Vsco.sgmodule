@@ -1,0 +1,9 @@
+#!name= VSCO
+#!desc= Unlock Pro
+
+[MITM]
+hostname = api.revenuecat.com, subscriptions-api.superwall.com
+
+[Script]
+vsco = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), requires-body=true,timeout=5,script-path=https://ifade.vercel.app/scripts/vsco.js
+vscoo = type=http-response, pattern=^https:\/\/subscriptions-api\.superwall\.com\/subscriptions-api\/public\/v1\/(redeem|users\/[^\/]+\/entitlements)(\?.*)?$,requires-body=true,timeout=5, script-path=https://ifade.vercel.app/scripts/vscoo.js

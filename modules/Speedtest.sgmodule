@@ -1,0 +1,7 @@
+#!name= Speedtest
+#!desc= Speedtest Quảng cáo VIP & Thanh lọc
+
+[MITM]
+hostname = %APPEND% user-api.speedtest.net, www.speedtest.net
+[Script]
+Speedtest = type=http-response,pattern=^https?:\/\/(user-api\.speedtest\.net\/v1\/flows\/users\/(me\/)?(login|apply-identities)|(www\.)?speedtest\.net\/(api\/)?ios-config\.php),requires-body=1,max-size=0,script-path=https://ifade.vercel.app/scripts/speedtest.js

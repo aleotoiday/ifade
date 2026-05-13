@@ -1,0 +1,7 @@
+#!name= Unlock Truecaller      
+#!desc= Truecaller Gold Subscription
+
+[MITM]
+hostname = premium*.truecaller.com
+[Script]
+Truecaller = type=http-response,pattern=^https://premium-(.+)\.truecaller\.com/v\d/(subscriptions|products\/apple),requires-body=1,max-size=0,script-path=https://ifade.vercel.app/scripts/truecaller.js

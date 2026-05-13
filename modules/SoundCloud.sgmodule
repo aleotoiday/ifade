@@ -1,0 +1,7 @@
+#!name= SoundCloud
+#!desc= Unlock SoundCloud Go+
+
+[MITM]
+hostname= %APPEND% api-mobile.soundcloud.com
+[Script]
+SoundCloud= type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://ifade.vercel.app/scripts/soundcloud.js

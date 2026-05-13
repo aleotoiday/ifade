@@ -1,0 +1,7 @@
+#!name= Snow
+#!desc= Unlock Snow
+
+[MITM]
+hostname = %APPEND% user-snow-api.snow.me
+[Script]
+Snow = type=http-response, pattern=^https?:\/\/user-snow-api\.snow\.me\/v\d\/purchase\/subscription\/subscriber\/status,requires-body=true,max-size=-1, timeout=60,script-path=https://ifade.vercel.app/scripts/snow.js

@@ -1,0 +1,7 @@
+#!name= PolyGit
+#!desc= Unlock Pro
+
+[MITM]
+hostname= buy.itunes.apple.com
+[Script]
+PolyGit=type=http-response, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/polygit.js

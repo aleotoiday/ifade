@@ -1,0 +1,7 @@
+#!name= ReLens
+#!desc= Unlock ReLens Pro
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
+[Script]
+Relens=type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,script-path=https://ifade.vercel.app/scripts/ReLens.js

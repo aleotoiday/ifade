@@ -1,0 +1,8 @@
+#!name= Unlock Goodnotes
+#!desc= Goodnotes
+
+[MITM]
+hostname = %APPEND% isi.csan.goodnotes.com
+[Script]
+Goodnotes = type=http-response, pattern=^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/Goodnotes.js
+deleteHeader = type=http-request,pattern=^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts|subscribers),timeout=60,script-path=https://ifade.vercel.app/scripts/deleteheader.js

@@ -1,0 +1,7 @@
+#!name= Steve Widget Game
+#!desc= Unlock Premium
+
+[MITM]
+hostname= %APPEND% api.adaptytech.com
+[Script]
+Steve=type=http-response,pattern=^https:\/\/api\.adaptytech\.com\/api\/v1\/sdk\/(purchase\/app-store\/original-transaction-id\/validate|analytics\/profiles\/[^\/]+|in-apps\/profile\/cross-placement-info)\/?(\?.*)?$,requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/steve.js

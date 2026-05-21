@@ -5,5 +5,5 @@
 hostname = %APPEND% api.revenuecat.com, api.rc-backup.com
 
 [Script]
-RevenueCat = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/[^/]+$), requires-body=true, max-size=-1, timeout=60, script-path=https://ifade.vercel.app/scripts/Revenuecat.js
-DeleteHeader = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts|subscribers), timeout=60, script-path=https://ifade.vercel.app/scripts/deleteheader.js
+RevenueCat = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1,timeout=60,script-path=https://ifade.vercel.app/scripts/Revenuecat.js
+DeleteHeader = type=http-request,pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts|subscribers),timeout=60,script-path=https://ifade.vercel.app/scripts/Revenuecat.js

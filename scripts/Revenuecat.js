@@ -14,6 +14,7 @@ const bundle = {
   'com.exoplanet.chatme': { name: 'premium', id: 'chatme_premium_year_trial', cm: 'sja' },
   'com.flexicalc.app': { name: 'pro', id: 'pro_product', cm: 'sja' },
   'com.laser-focused.focus-ios': { name: 'subscribed', id: 'iap.io.masterbuilders.focus.pro_one_year', cm: 'sja' },
+  'com.markodevcic.python-code-pad': { name: 'developer', id: 'py_code_pad_developer_standard_yearly', cm: 'sja' },
   'com.OfflineMusic.www': { name: 'premium', id: 'com.OfflineMusic.www.lifetime298', cm: 'sjb' },
   'com.reader.book': { name: 'pro', id: 'reader.lifetimeFamily.pro', cm: 'sja' },
   'com.reku.Counter': { name: 'plus', id: 'com.reku.counter.plus.lifetime', cm: 'sjb' },

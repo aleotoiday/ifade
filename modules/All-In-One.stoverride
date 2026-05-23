@@ -1,0 +1,136 @@
+name: 𝙰𝚕𝚕 𝙸𝚗 𝙾𝚗𝚎
+desc: 𝚃𝚑𝚎 𝚂𝚑𝚊𝚍𝚘𝚠𝚟𝚎𝚛𝚜𝚎
+icon: https://anhh.vercel.app/maymay.png
+
+http:
+  mitm:
+    - mobile-api.adguard.org
+    - us-central1-alight-creative.cloudfunctions.net
+    - ap*.intsig.net
+    - isi.csan.goodnotes.com
+    - photos.adobe.io
+    - nicegram.cloud
+    - restore-access.indream.app
+    - api.revenuecat.com
+    - api.rc-backup.com
+    - api-mobile.soundcloud.com
+    - spclient.wg.spotify.com
+    - "*spclient.spotify.com"
+    - redirector*.googlevideo.com
+    - "*.googlevideo.com"
+    - www.youtube.com
+    - s.youtube.com
+    - youtubei.googleapis.com
+    - accounts.google.com
+
+  script:
+    - match: ^https?:\/\/mobile-api\.adguard\.org\/api\/.+\/ios_validate_receipt
+      name: AdGuard
+      type: response
+      require-body: true
+    - match: ^https:\/\/us-central1-alight-creative\.cloudfunctions\.net\/getAccountStatusAndLicenses$
+      name: AlightMotion
+      type: response
+      require-body: true
+      timeout: 5
+    - match: https:\/\/(api|api-cs.*)\.intsig\.net\/purchase\/cs\/query_property\?
+      name: CamScanner
+      type: response
+      require-body: true
+    - match: ^https:\/\/isi\.csan\.goodnotes\.com\/.+\/(receipts$|subscribers\/[^/]+$)
+      name: Goodnotes
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+    - match: ^https:\/\/photos\.adobe\.io\/v2\/accounts.*
+      name: Lightroom
+      type: response
+      require-body: true
+      max-size: 0
+    - match: ^https?:\/\/(nicegram\.cloud\/api\/v\d\/user\/info|restore-access\.indream\.app\/restoreAccess)
+      name: Nicegram
+      type: response
+      require-body: true
+      max-size: 0
+    - match: https://api.picsart.com/gw-v2/shop/subscription/apple/purchases
+      name: Picsart
+      type: request
+      require-body: true
+      timeout: 5
+    - match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
+      name: RevenueCat
+      type: response
+      require-body: true
+      max-size: -1
+      timeout: 60
+    - match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers)
+      name: deleteHeader
+      type: request
+      timeout: 60
+    - match: https://api-mobile.soundcloud.com/configuration/ios
+      name: SoundCloud
+      type: response
+      require-body: true
+    - match: ^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
+      name: spotify-json
+      type: request
+    - match: ^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
+      name: spotify-proto
+      type: response
+      require-body: true
+      binary-mode: true
+    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch)
+      name: YouTube
+      type: response
+      require-body: true
+      max-size: -1
+      binary-body-mode: true
+
+  rewrite:
+    - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject-200
+    - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject-200
+    - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject-200
+    - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject-200
+
+script-providers:
+  AdGuard:
+    url: https://ifade.vercel.app/scripts/adguard.js
+    interval: 86400
+  AlightMotion:
+    url: https://ifade.vercel.app/scripts/alightmotion.js
+    interval: 86400
+  CamScanner:
+    url: https://ifade.vercel.app/scripts/camscanner.js
+    interval: 86400
+  Goodnotes:
+    url: https://ifade.vercel.app/scripts/Goodnotes.js
+    interval: 86400
+  Lightroom:
+    url: https://ifade.vercel.app/scripts/lightroom.js
+    interval: 86400
+  Nicegram:
+    url: https://ifade.vercel.app/scripts/Nicegram.js
+    interval: 86400
+  Picsart:
+    url: https://ifade.vercel.app/scripts/picsart.js
+    interval: 86400
+  RevenueCat:
+    url: https://ifade.vercel.app/scripts/Revenuecat.js
+    interval: 86400
+  deleteHeader:
+    url: https://ifade.vercel.app/scripts/Revenuecat.js
+    interval: 86400
+  SoundCloud:
+    url: https://ifade.vercel.app/scripts/soundcloud.js
+    interval: 86400
+  spotify-json:
+    url: https://ifade.vercel.app/scripts/spotify-json.js
+    interval: 86400
+  spotify-proto:
+    url: https://ifade.vercel.app/scripts/spotify-proto.js
+    interval: 86400
+  YouTube:
+    url: https://ifade.vercel.app/scripts/YouTube.js
+    interval: 86400

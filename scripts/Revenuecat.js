@@ -138,6 +138,7 @@ const listua = {
   'Falendar': { name: 'Falendar+', id: 'falendar_68_life', cm: 'sjb' },
   'fastdiet': { name: 'premium', id: 'com.happy.fastdiet.forever', cm: 'sjb' },
   'fengling': { name: 'Pro', id: 'com.nocmt.fengling.NewLifetime', cm: 'sjb' },
+  'Finch': { name: 'plus', id:'finch_plus_yearly_new_50_usd', cm: 'sja' },
   'Flourish': { name: 'Pro', id: 'flourish_9800_1yr_1m0', cm: 'sja' },
   'FocusFour': { name: 'pro', id: 'focusfour_lifetime', cm: 'sjb' },
   'FoJiCam': { name: 'ProVersionLifeTime', id: 'com.uzero.cn.fojicam.life2', cm: 'sjb' },

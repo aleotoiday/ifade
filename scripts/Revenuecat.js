@@ -8,6 +8,7 @@ if (forbiddenApps.some(app => (ua && ua.includes(app)) || ($request.body && $req
 }
 
 const bundle = {
+  'com.instantbits.cast.webvideo': { name: 'Premium', id: 'premium.regular.price', cm: 'sjb' },
   'app.imone.OneWidget': { name: 'pro', id: 'app.imone.OneWidget.Lifetime', cm: 'sjb' },
   'camp.user.penbook': { name: 'pro', id: 'penbook.lifetime01', cm: 'sjb' },
   'com.ausoco.umai': { name: 'umai_pro', id: 'umai_pro_yearly', cm: 'sja' },

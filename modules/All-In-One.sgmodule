@@ -40,11 +40,9 @@ LightRoom=type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts*
 
 ————————————————————————————————————————————————————
 
-# > RevenueCat
+# > Locket
 hostname= api.revenuecat.com
-RevenueCat=type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), requires-body=true, max-size=-1, timeout=60, script-path=https://ifade.vercel.app/scripts/Revenuecat.js
-
-deleteHeader=type=http-request,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),timeout=60,script-path=https://ifade.vercel.app/scripts/Revenuecat.js
+RevenueCat=type=http-response,pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$),requires-body=true,max-size=-1, timeout=60,script-path=https://ifade.vercel.app/scripts/locket.js
 
 ————————————————————————————————————————————————————
 

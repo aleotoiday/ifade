@@ -38,28 +38,28 @@ dns:
       - 240.0.0.0/4
       - 0.0.0.0/32
 proxy-providers:
-  CSA:
+  BBN:
     type: http
-    url: "𝐃𝐚́𝐧 𝐥𝐢𝐧𝐤 𝐒𝐮𝐛"
-    path: ./proxies/csa.yaml
+    url: "𝐃𝐚́𝐧 𝐒𝐮𝐛"
+    path: ./proxies/bbn.yaml
     interval: 3600
     health-check:
       enable: true
       url: https://www.gstatic.com/generate_204
       interval: 600
 proxy-groups:
-  - name: 𝐂𝐒𝐀𝐃𝐀𝐓𝐀𝟓𝐆
+  - name: 𝐁𝐨𝐁𝐢𝐞𝐧𝐍𝐠𝐚
     type: select
     proxies:
       - DIRECT
       - 𝐀𝐮𝐭𝐨 𝐒𝐞𝐥𝐞𝐜𝐭
     use:
-      - CSA
+      - BBN
     icon: 'https://anhh.vercel.app/csa.png'
   - name: 𝐀𝐮𝐭𝐨 𝐒𝐞𝐥𝐞𝐜𝐭
     type: url-test
     use:
-      - CSA
+      - BBN
     url: 'https://www.gstatic.com/generate_204'
     interval: 300
     tolerance: 30
@@ -67,31 +67,31 @@ proxy-groups:
   - name: 𝐕𝐢𝐞𝐭𝐍𝐚𝐦
     type: select
     use:
-      - CSA
+      - BBN
     filter: "🇻🇳"
     icon: https://anhh.vercel.app/vietnam.png
   - name: 𝐒𝐢𝐧𝐠𝐚𝐩𝐨𝐫𝐞
     type: select
     use:
-      - CSA
+      - BBN
     filter: "🇸🇬"
     icon: https://anhh.vercel.app/singapore.png
   - name: 𝐉𝐚𝐩𝐚𝐧
     type: select
     use:
-      - CSA
+      - BBN
     filter: "🇯🇵"
     icon: https://anhh.vercel.app/japan.png
   - name: 𝐇𝐨𝐧𝐠𝐊𝐨𝐧𝐠
     type: select
     use:
-      - CSA
+      - BBN
     filter: "🇭🇰"
     icon: https://anhh.vercel.app/hongkong.png
   - name: 𝐔𝐒𝐀
     type: select
     use:
-      - CSA
+      - BBN
     filter: "🇺🇸"
     icon: https://anhh.vercel.app/hoaky.png
 rules:
@@ -103,4 +103,4 @@ rules:
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
-  - MATCH,𝐂𝐒𝐀𝐃𝐀𝐓𝐀𝟓𝐆
+  - MATCH,𝐁𝐨𝐁𝐢𝐞𝐧𝐍𝐠𝐚

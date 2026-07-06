@@ -4,11 +4,9 @@ bind-address: '*'
 mode: rule
 log-level: info
 external-controller: '127.0.0.1:9090'
-
 profile:
   store-selected: true
   store-fake-ip: true
-
 dns:
   enable: true
   ipv6: false
@@ -31,7 +29,6 @@ dns:
     - 8.8.8.8
     - 1.1.1.1
   fallback:
-    - https://doh.dns.sb/dns-query
     - https://dns.cloudflare.com/dns-query
     - https://dns.twnic.tw/dns-query
     - tls://8.8.4.4:853
@@ -40,62 +37,63 @@ dns:
     ipcidr:
       - 240.0.0.0/4
       - 0.0.0.0/32
-
 proxy-providers:
-  VPN:
+  CSA:
     type: http
     url: "𝐃𝐚́𝐧 𝐥𝐢𝐧𝐤 𝐒𝐮𝐛"
-    path: ./proxies/vpn.yaml
+    path: ./proxies/csa.yaml
     interval: 3600
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: https://www.gstatic.com/generate_204
       interval: 600
-
 proxy-groups:
-  - name: 𝐁𝐨𝐁𝐢𝐞𝐧𝐍𝐠𝐚
+  - name: 𝐂𝐒𝐀𝐃𝐀𝐓𝐀𝟓𝐆
     type: select
     proxies:
       - DIRECT
       - 𝐀𝐮𝐭𝐨 𝐒𝐞𝐥𝐞𝐜𝐭
-    icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/VIP.png'
-
+    use:
+      - CSA
+    icon: 'https://anhh.vercel.app/csa.png'
   - name: 𝐀𝐮𝐭𝐨 𝐒𝐞𝐥𝐞𝐜𝐭
     type: url-test
     use:
-      - VPN
-    url: 'http://www.gstatic.com/generate_204'
+      - CSA
+    url: 'https://www.gstatic.com/generate_204'
     interval: 300
     tolerance: 30
-    icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png'
-
-  - name: 𝐅𝐮𝐥𝐥 𝐒𝐞𝐯𝐞𝐫
-    type: select
-    use:
-      - VPN
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
-
+    icon: 'https://anhh.vercel.app/rocket.png'
   - name: 𝐕𝐢𝐞𝐭𝐍𝐚𝐦
     type: select
     use:
-      - VPN
+      - CSA
     filter: "🇻🇳"
     icon: https://anhh.vercel.app/vietnam.png
-
   - name: 𝐒𝐢𝐧𝐠𝐚𝐩𝐨𝐫𝐞
     type: select
     use:
-      - VPN
+      - CSA
     filter: "🇸🇬"
     icon: https://anhh.vercel.app/singapore.png
-
   - name: 𝐉𝐚𝐩𝐚𝐧
     type: select
     use:
-      - VPN
+      - CSA
     filter: "🇯🇵"
     icon: https://anhh.vercel.app/japan.png
-
+  - name: 𝐇𝐨𝐧𝐠𝐊𝐨𝐧𝐠
+    type: select
+    use:
+      - CSA
+    filter: "🇭🇰"
+    icon: https://anhh.vercel.app/hongkong.png
+  - name: 𝐔𝐒𝐀
+    type: select
+    use:
+      - CSA
+    filter: "🇺🇸"
+    icon: https://anhh.vercel.app/hoaky.png
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - DOMAIN-KEYWORD,local,DIRECT
@@ -105,4 +103,4 @@ rules:
   - IP-CIDR,172.16.0.0/12,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT
   - IP-CIDR,127.0.0.0/8,DIRECT
-  - MATCH,𝐁𝐨𝐁𝐢𝐞𝐧𝐍𝐠𝐚
+  - MATCH,𝐂𝐒𝐀𝐃𝐀𝐓𝐀𝟓𝐆

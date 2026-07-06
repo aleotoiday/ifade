@@ -1,5 +1,4 @@
 #!name= 𝙰𝚕𝚕 𝙸𝚗 𝙾𝚗𝚎
-#!desc= 𝚃𝚑𝚎 𝚂𝚑𝚊𝚍𝚘𝚠𝚟𝚎𝚛𝚜𝚎
 
 [Rule]
 AND,((DOMAIN-SUFFIX,googlevideo.com), (PROTOCOL,UDP)),REJECT
